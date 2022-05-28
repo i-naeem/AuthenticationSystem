@@ -19,8 +19,8 @@
 
 ### SQL
 
-> Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
-> -- <cite>techtarget</cite>
+> SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.
+> -- <cite>Wikipedia</cite>
 
 ### SQL Injection
 
