@@ -17,8 +17,9 @@ Public Class Login
             Dim query As String = "SELECT user FROM users_table WHERE username = " + username + " AND password = " + password
             Dim cmd As SqlDataAdapter = New SqlDataAdapter(query, con)
 
-
+            '
             Me.Hide()
+
             ' Reset the username and password input.
             UsernameTextBox.Text = ""
             PasswordTextBox.Text = ""
