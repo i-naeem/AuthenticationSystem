@@ -5,7 +5,7 @@
         Application.Exit()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
         Me.Hide()
         Login.Show()
     End Sub

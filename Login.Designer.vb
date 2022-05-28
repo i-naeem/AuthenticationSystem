@@ -27,7 +27,7 @@ Partial Class Login
         Me.WelcomeLabel = New System.Windows.Forms.Label()
         Me.PasswordTextBox = New System.Windows.Forms.TextBox()
         Me.PasswordLabel = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.LoginButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'UsernameLabel
@@ -78,22 +78,22 @@ Partial Class Login
         Me.PasswordLabel.TabIndex = 3
         Me.PasswordLabel.Text = "Password"
         '
-        'Button1
+        'LoginButton
         '
-        Me.Button1.Font = New System.Drawing.Font("Fira Code Medium", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(328, 493)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(535, 45)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.LoginButton.Font = New System.Drawing.Font("Fira Code Medium", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LoginButton.Location = New System.Drawing.Point(328, 493)
+        Me.LoginButton.Name = "LoginButton"
+        Me.LoginButton.Size = New System.Drawing.Size(535, 45)
+        Me.LoginButton.TabIndex = 5
+        Me.LoginButton.Text = "Login"
+        Me.LoginButton.UseVisualStyleBackColor = True
         '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1149, 625)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.LoginButton)
         Me.Controls.Add(Me.PasswordTextBox)
         Me.Controls.Add(Me.PasswordLabel)
         Me.Controls.Add(Me.UsernameTextBox)
@@ -112,5 +112,5 @@ Partial Class Login
     Friend WithEvents WelcomeLabel As Label
     Friend WithEvents PasswordTextBox As TextBox
     Friend WithEvents PasswordLabel As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents LoginButton As Button
 End Class

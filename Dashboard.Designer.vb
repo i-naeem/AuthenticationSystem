@@ -24,7 +24,7 @@ Partial Class Dashboard
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.LogoutButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -47,22 +47,22 @@ Partial Class Dashboard
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Your logged in."
         '
-        'Button1
+        'LogoutButton
         '
-        Me.Button1.Font = New System.Drawing.Font("Fira Code", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(500, 366)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(189, 55)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Log out"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.LogoutButton.Font = New System.Drawing.Font("Fira Code", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LogoutButton.Location = New System.Drawing.Point(500, 366)
+        Me.LogoutButton.Name = "LogoutButton"
+        Me.LogoutButton.Size = New System.Drawing.Size(189, 55)
+        Me.LogoutButton.TabIndex = 2
+        Me.LogoutButton.Text = "Log out"
+        Me.LogoutButton.UseVisualStyleBackColor = True
         '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1181, 632)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.LogoutButton)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Dashboard"
@@ -75,5 +75,5 @@ Partial Class Dashboard
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents LogoutButton As Button
 End Class
