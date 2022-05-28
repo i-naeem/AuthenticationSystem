@@ -43,9 +43,9 @@ Partial Class Dashboard
         Me.Label2.Font = New System.Drawing.Font("Fira Code", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(366, 265)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(475, 59)
+        Me.Label2.Size = New System.Drawing.Size(565, 59)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Your logged in."
+        Me.Label2.Text = "You are logged in."
         '
         'LogoutButton
         '
