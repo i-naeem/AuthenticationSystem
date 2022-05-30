@@ -16,9 +16,12 @@ Public Class Login
         End If
 
         'Creates a query to select user.
-        Dim query As String = "SELECT * FROM users_table WHERE username = '" + username + "' AND password = '" + password + "'"
+        'Dim query As String = "SELECT * FROM users_table WHERE username = '" + username + "' AND password = '" + password + "'"
+        Dim query As String = "SELECT * FROM users_table WHERE username=@username AND password=@password"
 
         Dim cmd As New SqlDataAdapter(query, con)
+        cmd.SelectCommand.Parameters.AddWithValue("@username", username)
+        cmd.SelectCommand.Parameters.AddWithValue("@password", password)
         Dim dt As New DataTable()
 
         'Fill the data table with results from database
